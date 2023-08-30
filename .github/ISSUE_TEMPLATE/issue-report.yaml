@@ -30,6 +30,6 @@ body:
   - type: textarea
     id: media
     attributes:
-      value: Provide some images / videos of the issue in action.
+      label: Provide some images / videos of the issue in action.
     validations:
       required: true
