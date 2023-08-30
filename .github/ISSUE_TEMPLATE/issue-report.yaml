@@ -28,8 +28,3 @@ body:
       required: false
   - type: markdown
     id: media
-    attributes:
-      label: Provide some images / videos of the issue in action.
-      description: These help us figure out the issue quicker
-    validations:
-      required: true
