@@ -33,3 +33,13 @@ body:
       label: Provide some images / videos of the issue in action.
     validations:
       required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before Submitting
+      description: Please check the boxes below before submitting.
+    options:
+      - label: I have confirmed that nobody else reported this issue.
+      required: true
+      - label: The details of this report are legitimate.
+      required: true
