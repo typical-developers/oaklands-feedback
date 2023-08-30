@@ -1,6 +1,7 @@
 name: Issue Report
 description: Create an issue report for Oaklands.
 title: "[BUG]: "
+projects: ["oaklands-issues/main"]
 body:
   - type: markdown
     attributes:
