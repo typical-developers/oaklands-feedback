@@ -1,6 +1,7 @@
 name: Issue Report
 description: Create an issue report for Oaklands.
 title: "[BUG]: "
+labels: ["bug"]
 projects: ["oaklands-issues/main"]
 body:
   - type: input
@@ -26,7 +27,9 @@ body:
       description: This could be reproduction steps or a better description of what is happening (ideally, please provide both if possible).
     validations:
       required: false
-  - type: markdown
+  - type: textarea
     id: media
     attributes:
       value: Provide some images / videos of the issue in action.
+    validations:
+      required: true
