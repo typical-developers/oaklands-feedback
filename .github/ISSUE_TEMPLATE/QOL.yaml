@@ -1,0 +1,27 @@
+name: QOL / Improvements
+description: Tell us what we can improve!
+title: "[IMRPOVEMENTS]: "
+labels: ["qol"]
+projects: ["oaklands-issues/main"]
+body:
+  - type: input
+    id: username
+    attributes:
+      label: Roblox Username
+      description: What is your Roblox username?
+      placeholder: ex. OnlyTwentyCharacters
+    validations:
+      required: true
+  - type: input
+    id: what-qol
+    attributes:
+      label: What do you think can have quality-of-life improvements?
+    validations:
+      required: true
+  - type: textarea
+    id: why-qol
+    attributes:
+      label: How do you think things can be improved?
+      description: We appreciate any concepts you have or in-detailed descriptions of the changes we can make for improvement.
+    validations:
+      required: true
