@@ -38,7 +38,8 @@ body:
     attributes:
       label: Before Submitting
       description: Please check the boxes below before submitting.
-      - label: I have confirmed that nobody else reported this issue.
-      required: true
-      - label: The details of this report are legitimate.
-      required: true
+      options:
+        - label: I have confirmed that nobody else reported this issue.
+        required: true
+        - label: The details of this report are legitimate.
+        required: true
