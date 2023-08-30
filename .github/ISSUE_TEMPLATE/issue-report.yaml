@@ -3,10 +3,6 @@ description: Create an issue report for Oaklands.
 title: "[BUG]: "
 projects: ["oaklands-issues/main"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
     id: username
     attributes:
@@ -34,5 +30,6 @@ body:
     id: media
     attributes:
       label: Provide some images / videos of the issue in action.
+      description: These help us figure out the issue quicker
     validations:
       required: true
