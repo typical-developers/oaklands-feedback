@@ -1,7 +1,7 @@
 name: QOL / Improvements
 description: Tell us what we can improve!
 title: "[IMRPOVEMENTS]: "
-labels: ["qol"]
+labels: ["improvement"]
 projects: ["oaklands-issues/main"]
 body:
   - type: input
