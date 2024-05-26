@@ -43,3 +43,5 @@ body:
           required: true
         - label: The details of this report are legitimate.
           required: true
+        - label: I understand that I cannot be reimbursed here for in-game content I have lost.
+          required: true
