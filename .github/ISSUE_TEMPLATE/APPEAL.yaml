@@ -1,6 +1,6 @@
 name: Ban Appeal
 description: Appeal a ban for Oaklands.
-title: "[BAN APPEAL]: "
+title: "[BAN APPEAL]: {username}"
 labels: ["appeal"]
 projects: ["oaklands-issues/main"]
 body:
