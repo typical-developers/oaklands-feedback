@@ -1,0 +1,38 @@
+name: Ban Appeal
+description: Appeal a ban for Oaklands.
+title: "[BAN APPEAL]: "
+labels: ["appeal"]
+projects: ["oaklands-issues/main"]
+body:
+  - type: input
+    id: username
+    attributes:
+      label: Roblox Username
+      description: What is your Roblox username?
+      placeholder: ex. OnlyTwentyCharacters
+    validations:
+      required: true
+  - type: input
+    id: reason
+    attributes:
+      label: Ban Reason
+      description:  What was the reason for your ban? Please go into detail on what you did before your ban. Be honest.
+    validations:
+      required: true
+  - type: input
+    id: extra
+    attributes:
+      label: Other Information
+      description: Is there anything else that you would like to add on?
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Before Submitting
+      description: Please check the boxes below before submitting your appeal.
+      options:
+      - label: I understand that this is the *only* appeal that I will get.
+        required: true
+      - label: I have been completely honest about why I was banned.
+        required: true
