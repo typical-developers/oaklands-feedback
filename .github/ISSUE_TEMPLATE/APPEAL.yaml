@@ -12,14 +12,14 @@ body:
       placeholder: ex. OnlyTwentyCharacters
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: reason
     attributes:
       label: Ban Reason
       description:  What was the reason for your ban? Please go into detail on what you did before your ban. Be honest.
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: extra
     attributes:
       label: Other Information
